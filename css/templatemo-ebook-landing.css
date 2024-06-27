@@ -7,7 +7,7 @@ https://templatemo.com/tm-588-ebook-landing
 */
 
 /*---------------------------------------
-  CUSTOM PROPERTIES ( VARIABLES )             
+  CUSTOM PROPERTIES ( VARIABLES )
 -----------------------------------------*/
 :root {
   --white-color:                  #ffffff;
@@ -45,12 +45,12 @@ https://templatemo.com/tm-588-ebook-landing
 
 body {
   background-color: var(--white-color);
-  font-family: var(--body-font-family); 
+  font-family: var(--body-font-family);
 }
 
 
 /*---------------------------------------
-  TYPOGRAPHY               
+  TYPOGRAPHY
 -----------------------------------------*/
 
 h2,
@@ -92,8 +92,10 @@ h5 {
   font-size: var(--h5-font-size);
 }
 
+/*var(--secondary-color)*/
+
 h6 {
-  color: var(--secondary-color);
+  color: #0b623a;
   font-size: var(--h6-font-size);
 }
 
@@ -109,15 +111,17 @@ ul li {
   font-weight: var(--font-weight-normal);
 }
 
-a, 
+a,
 button {
   touch-action: manipulation;
   transition: all 0.3s;
 }
 
+/*var(--primary-color)*/
+
 a {
   display: inline-block;
-  color: var(--primary-color);
+  color: #0b623a;
   text-decoration: none;
 }
 
@@ -133,7 +137,7 @@ strong {
 
 
 /*---------------------------------------
-  SECTION               
+  SECTION
 -----------------------------------------*/
 .section-padding {
   padding-top: 100px;
@@ -147,7 +151,7 @@ strong {
 
 
 /*---------------------------------------
-  AVATAR IMAGE               
+  AVATAR IMAGE
 -----------------------------------------*/
 .avatar-image {
   border: 4px solid var(--white-color);
@@ -192,7 +196,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM LINK              
+  CUSTOM LINK
 -----------------------------------------*/
 .link {
   cursor: pointer;
@@ -263,10 +267,12 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BUTTON               
+  CUSTOM BUTTON
 -----------------------------------------*/
+
+/*var(--custom-btn-bg-color)*/
 .custom-btn {
-  background: var(--custom-btn-bg-color);
+  background: #0b623a;
   border: 2px solid transparent;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -276,9 +282,9 @@ strong {
   transition: all 0.3s;
   padding: 10px 20px;
 }
-
+/*var(--custom-btn-bg-hover-color)*/
 .custom-btn:hover {
-  background: var(--custom-btn-bg-hover-color);
+  background: #0b623a;
   color: var(--white-color);
 }
 
@@ -404,7 +410,7 @@ strong {
 
 
 /*---------------------------------------
-  NAVIGATION              
+  NAVIGATION
 -----------------------------------------*/
 .sticky-wrapper {
   position: absolute;
@@ -477,10 +483,10 @@ strong {
   padding-top: 15px;
   padding-bottom: 15px;
 }
-
-.navbar-nav .nav-link.active, 
+/*var(--primary-color)*/
+.navbar-nav .nav-link.active,
 .navbar-nav .nav-link:hover {
-  color: var(--primary-color);
+  color: #0b623a;
 }
 
 .navbar-toggler {
@@ -551,7 +557,7 @@ strong {
 
 
 /*---------------------------------------
-  HERO        
+  HERO
 -----------------------------------------*/
 .hero-section {
   background-image: url('../images/hero-bg.jpg');
@@ -596,10 +602,10 @@ strong {
 
 
 /*---------------------------------------
-  FEATURED              
+  FEATURED
 -----------------------------------------*/
 .featured-section {
-  background-color: var(--custom-btn-bg-color);
+  background-color: #0b623a;
   position: relative;
   padding-top: 50px;
   padding-bottom: 50px;
@@ -620,7 +626,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM BLOCK              
+  CUSTOM BLOCK
 -----------------------------------------*/
 .custom-block {
   background-image: url('../images/businessman-sitting-by-table-cafe.jpg');
@@ -652,13 +658,13 @@ strong {
 .custom-block .bi-star {
   color: var(--white-color);
 }
-
+/*var(--secondary-color)*/
 .custom-block .bi-star-fill {
-  color: var(--secondary-color);
+  color: #000000;
 }
 
 .custom-block-image-wrap {
-  background-color: rgba(231, 111, 81, 0.85);
+  background-color: rgb(60 137 101);
   border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
   position: relative;
   z-index: 2;
@@ -685,7 +691,7 @@ strong {
 
 
 /*---------------------------------------
-  THE BOOK SECTION            
+  THE BOOK SECTION
 -----------------------------------------*/
 .book-section-info {
   padding-top: 40px;
@@ -693,8 +699,9 @@ strong {
   padding-left: 40px;
 }
 
+/*var(--primary-color)*/
 .nav-pills {
-  border: 2px solid var(--primary-color);
+  border: 2px solid #0b623a;
   border-radius: var(--border-radius-medium);
   position: sticky;
   top: 120px;
@@ -710,10 +717,11 @@ strong {
   padding: 15px 30px;
 }
 
+/* var(--primary-color)*/
 .nav-pills .nav-link:hover,
-.nav-pills .nav-link.active, 
+.nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-  background: var(--primary-color);
+  background: #0b623a;
   color: var(--white-color);
 }
 
@@ -764,7 +772,7 @@ strong {
 
 
 /*---------------------------------------
-  AUTHOR SECTION            
+  AUTHOR SECTION
 -----------------------------------------*/
 .author-section {
   background-image: url('../images/circle-scatter-haikei.png');
@@ -792,7 +800,7 @@ strong {
 
 
 /*---------------------------------------
-  DIVIDER SECTION               
+  DIVIDER SECTION
 -----------------------------------------*/
 .divider-section {
   background-image: url('../images/wave-haikei.png');
@@ -803,10 +811,11 @@ strong {
 
 
 /*---------------------------------------
-  CONTACT               
+  CONTACT
 -----------------------------------------*/
+/*var(--custom-btn-bg-color)*/
 .contact-section {
-  background: var(--custom-btn-bg-color);
+  background: #93c9b0;
   position: relative;
   overflow: hidden;
 }
@@ -843,7 +852,7 @@ strong {
 
 
 /*---------------------------------------
-  EBOOK DOWNLOAD FORM               
+  EBOOK DOWNLOAD FORM
 -----------------------------------------*/
 .ebook-download-form {
   border-radius: var(--border-radius-medium);
@@ -854,7 +863,7 @@ strong {
 
 
 /*---------------------------------------
-  CUSTOM FORM               
+  CUSTOM FORM
 -----------------------------------------*/
 .custom-form .form-control {
   border-radius: var(--border-radius-large);
@@ -896,11 +905,11 @@ strong {
 }
 
 .input-group:not(.has-validation)>.dropdown-toggle:nth-last-child(n+3), .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-control, .input-group:not(.has-validation)>.form-floating:not(:last-child)>.form-select, .input-group:not(.has-validation)>:not(:last-child):not(.dropdown-toggle):not(.dropdown-menu):not(.form-floating) {
-  border-radius: var(--border-radius-large);
+  border-radius: #0b623a var(--border-radius-large);
 }
-
+/*var(--custom-btn-bg-color)*/
 .custom-form button[type="submit"] {
-  background: var(--custom-btn-bg-color);
+  background: #0b623a;
   border: none;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
@@ -918,7 +927,7 @@ strong {
 
 
 /*---------------------------------------
-  SOCIAL ICON               
+  SOCIAL ICON
 -----------------------------------------*/
 .social-icon {
   margin: 0;
@@ -932,7 +941,7 @@ strong {
 }
 
 .social-icon-link {
-  background: var(--secondary-color);
+  background: #000000;
   border-radius: var(--border-radius-large);
   color: var(--white-color);
   font-size: var(--copyright-font-size);
@@ -946,13 +955,13 @@ strong {
 }
 
 .social-icon-link:hover {
-  background: var(--primary-color);
+  background: #198754 /*var(--primary-color)*/;
   color: var(--white-color);
 }
 
 
 /*---------------------------------------
-  RESPONSIVE STYLES               
+  RESPONSIVE STYLES
 -----------------------------------------*/
 @media screen and (max-width: 991px) {
   h1 {
@@ -983,7 +992,7 @@ strong {
     padding-top: 50px;
     padding-bottom: 50px;
   }
-  
+
   .navbar {
     background-color: rgba(0, 0, 0, 0.65);
   }
@@ -1050,7 +1059,7 @@ strong {
     top: 5px;
   }
 
-  .btn-naira > span, 
+  .btn-naira > span,
   .btn-naira .btn-icon {
     font-size: 12px;
     padding: 5px 15px;
@@ -1064,8 +1073,8 @@ strong {
   right: 10px;
   z-index: 99;
 
-   
- 
+
+
 }
 .scale-in-top {
 	-webkit-animation: scale-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
@@ -1074,7 +1083,7 @@ strong {
 /* ----------------------------------------------
  * Generated by Animista on 2024-4-25 13:22:47
  * Licensed under FreeBSD License.
- * See http://animista.net/license for more info. 
+ * See http://animista.net/license for more info.
  * w: http://animista.net, t: @cssanimista
  * ---------------------------------------------- */
 
@@ -1255,7 +1264,7 @@ strong {
 }
 
 .plan .button {
-  background-color: #6558d3;
+  background-color: #0b623a;
   border-radius: 6px;
   color: #fff;
   font-weight: 500;
@@ -1269,7 +1278,7 @@ strong {
 }
 
 .plan .button:hover, .plan .button:focus {
-  background-color: #4133B7;
+  background-color: #0b623a;
 }
 .why-sec{
   margin: 0px 0px 10px 0px;
@@ -1279,14 +1288,14 @@ strong {
   justify-content: space-around;
 }
 .why-sec>div{
-  box-shadow: 0px 0px 0px 2px rgba(218,102,123,1),
-8px 8px 0px 0px rgba(218,102,123,1);
+  box-shadow: 0px 0px 0px 2px #198754,
+8px 8px 0px 0px #198754;
   display: flex;
   flex-direction: column;
   justify-content: center;
   gap: 5px;
   align-items: center;
-  border: 2px solid var(--primary-color);
+  border: 2px solid #0fcb74;
     border-radius: var(--border-radius-medium);
   padding: 5px 5px;
 }
@@ -1302,7 +1311,7 @@ strong {
   overflow: auto;
   height: 300px; /* Adjust the height as needed */
 }
- 
+
 #calories-sheet th,td{
   padding: 15px;
   text-align: left;
